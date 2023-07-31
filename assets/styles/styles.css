@@ -140,7 +140,54 @@ section .container h3 span {
   color: rgb(236, 154, 41);
   border-bottom: 1px solid rgb(236, 154, 41);
 }
+section .container .grid-container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px 50px;
+}
 section .container .grid-container .grid-item img {
   width: 237px;
   height: 237px;
+}
+section .center-container {
+  text-align: center;
+}
+section .center-container h4 {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(15, 139, 141);
+}
+section .center-container p {
+  margin-top: 1rem;
+}
+section .center-container a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  background-color: rgb(168, 32, 26);
+  border-radius: 50px;
+  font-weight: 200;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem 5rem;
+  background-color: rgb(20, 54, 66);
+}
+footer .container .profile img:first-child {
+  width: 15rem;
+  filter: invert(0);
+}
+footer .container .profile .contacts {
+  margin-top: 0.5rem;
+}
+footer .container .profile .contacts img {
+  width: 1.5rem;
+  filter: invert(1);
 }/*# sourceMappingURL=styles.css.map */
