@@ -12,42 +12,42 @@
   font-family: "Poppins", sans-serif;
 }
 
-nav {
+.navbar {
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Coffe Header.png");
   background-size: cover;
 }
-nav .container {
+.navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 12rem;
 }
-nav .container .navbar-brand img {
+.navbar .container .navbar-brand img {
   width: 15rem;
 }
-nav .container .navbar-nav a {
+.navbar .container .navbar-nav a {
   display: inline-block;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-nav .container .navbar-nav a:nth-child(-n+2) {
+.navbar .container .navbar-nav a:nth-child(-n+2) {
   margin: 0 2rem 0 0;
 }
-nav .container .navbar-nav a:hover {
+.navbar .container .navbar-nav a:hover {
   color: rgb(15, 139, 141);
   font-weight: 500;
 }
-nav .jumbotron {
+.navbar .jumbotron {
   text-align: center;
   margin: 8% 0;
 }
-nav .jumbotron h1 {
+.navbar .jumbotron h1 {
   font-size: 4rem;
   color: rgb(255, 255, 255);
 }
-nav .jumbotron p {
+.navbar .jumbotron p {
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
 }
@@ -220,4 +220,51 @@ footer .container .contact p {
 footer .container .contact a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.navbar-two {
+  background-color: rgb(15, 139, 141);
+}
+.navbar-two .container {
+  padding: 1rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-two .container img {
+  width: 14rem;
+}
+.navbar-two .container a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 300;
+}
+
+.container .title {
+  text-align: center;
+  margin: 5rem;
+}
+.container .title h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: rgb(15, 139, 141);
+}
+.container .gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+}
+.container .gallery .bg-gallery {
+  padding: 1rem 0;
+  width: 216px;
+  height: 216px;
+  background-image: url("../images/Coffee background.png");
+  border-radius: 25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.container .gallery .bg-gallery img {
+  width: 200px;
 }/*# sourceMappingURL=styles.css.map */

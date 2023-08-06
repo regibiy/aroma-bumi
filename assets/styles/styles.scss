@@ -46,7 +46,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-nav {
+.navbar {
   min-height: 100vh;
 
   .container {
@@ -261,6 +261,60 @@ footer {
 
       a {
         @include footer-a();
+      }
+    }
+  }
+}
+
+.navbar-two {
+  background-color: rgb(15, 139, 141);
+
+  .container {
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 14rem;
+    }
+
+    a {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.container {
+  .title {
+    text-align: center;
+    margin: 5rem;
+    h1 {
+      font-weight: 500;
+      font-size: 3rem;
+      color: rgb(15, 139, 141);
+    }
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+
+    .bg-gallery {
+      padding: 1rem 0;
+      width: 216px;
+      height: 216px;
+      background-image: url("../images/Coffee background.png");
+      border-radius: 25px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      img {
+        width: 200px;
       }
     }
   }
